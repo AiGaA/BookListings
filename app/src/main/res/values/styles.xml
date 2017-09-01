@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditTextView">
+        <item name="android:layout_weight">8</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft12dp</item>
+        <item name="android:layout_marginTop">@dimen/marginTop6dp</item>
+        <item name="android:textSize">@dimen/textSize14sp</item>
+        <item name="android:hint">@string/searchHint</item>
+    </style>
+
+    <style name="SearchIcon">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/paddingRight16dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:src">@drawable/ic_search</item>
+    </style>
+
+    <style name="EmptyTextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:text">@string/no_connection</item>
+        <item name="android:textSize">@dimen/textSize16sp</item>
+    </style>
+
+    <style name="ListsImageView">
+        <item name="android:layout_width">@dimen/layoutWidth70dp</item>
+        <item name="android:layout_height">@dimen/layoutHeight90dp</item>
+        <item name="android:src">@drawable/books_img</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="bookAuthorTextStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:text">@string/authorField</item>
+    </style>
+    <style name="bookTitleTextStyle">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:text">@string/bookTitleField</item>
+    </style>
+
+</resources>

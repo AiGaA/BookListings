@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Book Listings</string>
+    <string name="no_connection">Woops! Something went wrong! :( </string>
+    <string name="searchHint">Search..</string>
+    <string name="authorField">Author</string>
+    <string name="bookTitleField">Book Title</string>
+
+    <string name="noResults">No Results</string>
+    <string name="searchingFor">Searching for: </string>
+    <string name="connError">Please check your internet connection - No internet!</string>
+
+
+</resources>
